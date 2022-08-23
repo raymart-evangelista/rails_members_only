@@ -1,0 +1,23 @@
+<%= form_with model: post, data: { turbo: false } do |form| %>
+  <div>
+    <%= form.label :title %>
+    <br>
+    <%= form.text_field :title, placeholder: "some title" %>
+    <% post.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>  
+  </div>
+
+  <div>
+    <%= form.label :content %>
+    <br>
+    <%= form.text_area :content, size: "20x30", placeholder: "enter some content" %>
+    <% post.errors.full_messages_for(:content).each do |message| %>
+    <div><%= message %></div>
+    <% end %>  
+  </div>
+
+  <div>
+    <%= form.submit "Submit post" %>
+  </div>
+<% end %>

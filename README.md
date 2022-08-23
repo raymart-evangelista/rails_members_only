@@ -4,6 +4,9 @@ This is part of the Ruby on Rails Members Only Project in The Odin Project's Rub
 
 ## Resources
 
-- Helped set up Devise with Turbo conflict: https://www.youtube.com/watch?v=XJ27X06GVrI
+### Helped...
+- set up Devise with Turbo conflict: https://www.youtube.com/watch?v=XJ27X06GVrI
 
-- Helped add foreign key to PostController#create: https://stackoverflow.com/questions/31480645/how-to-add-foreign-key-value-on-controller-create
+- add foreign key to PostController#create: https://stackoverflow.com/questions/31480645/how-to-add-foreign-key-value-on-controller-create
+
+- remove tables that interfered with db:migrate: https://stackoverflow.com/questions/17715903/rake-dbmigrate-table-already-exist

@@ -3,19 +3,19 @@
 
 <%= link_to "New Post", posts_new_path %>
 
-<ul>
-  <% @posts.each do |post| %>
-    <% unless post.archieved? %>
-      <li>
-        </h1><%= post.title %><h1>
-        <p><%= post.content %></p>
-        <% if user_signed_in? %>
-          <%= user.email %>
-        <% else %>
-          <h3><%= "anon" %></h3>
-        <% end %>
-      </li>
-      <% end %>
-    <% end %>
-</ul>
+<%# <ul> %>
+  <%# <% @posts.each do |post| %> %>
+    <%# <% unless post.archieved? %> %>
+      <%# <li> %>
+        <%# </h1><%= post.title %><h1> %>
+        <%# <p><%= post.content %></p> %>
+        <%# <% if user_signed_in? %> %>
+          <%# <%= user.email %> %>
+        <%# <% else %> %>
+          <%# <h3><%= "anon" %></h3> %>
+        <%# <% end %> %>
+      <%# </li> %>
+      <%# <% end %> %>
+    <%# <% end %> %>
+<%# </ul> %>
 

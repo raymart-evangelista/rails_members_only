@@ -1,12 +1,4 @@
 <h1>Posts#new</h1>
 <p>Find me in app/views/posts/new.html.erb</p>
 
-<%= form_with model: @post do |form| %>
-  <%= form.label :title %>
-  <%= form.text_field :title, value: "some title" %>
-  <br>
-  <%= form.label :content %>
-  <%= form.text_area :content, size: "20x30", value: "enter some content" %>
-  <br>
-  <%= form.submit "Submit post" %>
-<% end %>
+<%= render "form", post: @post %>
