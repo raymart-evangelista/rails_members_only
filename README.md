@@ -12,3 +12,6 @@ What confused me the most was how devise and Turbo Drive don't play nicely toget
 - add foreign key to PostController#create: https://stackoverflow.com/questions/31480645/how-to-add-foreign-key-value-on-controller-create
 
 - remove tables that interfered with db:migrate: https://stackoverflow.com/questions/17715903/rake-dbmigrate-table-already-exist
+
+- debug heroku: https://gota-momrishita.medium.com/cant-deploy-rails-app-using-heroku-on-m1-mac-a7c6bf926b14
+
